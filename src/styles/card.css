@@ -1,0 +1,10 @@
+.cardContainer{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+
+h4{
+    color: black;
+}

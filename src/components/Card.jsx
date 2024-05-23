@@ -1,5 +1,10 @@
-export const Card = () => {
+import '../styles/card.css'
+
+export const Card = ({movie}) => {
   return (
-    <div>Hola, soy una tarjeta</div>
+    <div className="cardContainer">
+    <h4>{movie.nombre}</h4>
+    <h4>{movie.genero}</h4>
+  </div>
   )
 }
